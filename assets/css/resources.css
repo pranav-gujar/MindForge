@@ -1,0 +1,118 @@
+.main-content h2{
+    color: white;
+    font-weight: 600;
+    text-decoration: 2px solid rgb(202, 207, 93) underline;
+}
+
+.search-section {
+    text-align: center;
+    padding: 20px;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resources {
+    text-align: center;
+    padding: 30px;
+}
+
+.resource-category {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.resource-category h3 {
+    color: #ffcc00;
+    font-size: 22px;
+}
+
+.resource-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-category ul li {
+    margin: 10px 0;
+}
+
+.resource-category ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 8px;
+    background: #007bff;
+    border-radius: 5px;
+}
+
+.resource-category ul li a:hover {
+    background: #0056b3;
+}
+
+/* quiz */
+#quiz {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#quiz h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.quiz-selection {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-selection h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: yellow;
+}
+
+.quiz-selection button {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.quiz-selection button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .quiz-selection {
+        width: 90%;
+    }
+    
+    .quiz-selection button {
+        width: 100%;
+        margin: 8px 0;
+    }
+}

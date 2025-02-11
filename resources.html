@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - MindForge</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/resources.css">
+    <link rel="icon" href="assets/img/icon.png">
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+
+    <header>
+        <nav>
+          <div class="logo"><a href="index.html"><span>MindForge</span></a></div>
+          <button id="menu-btn" class="menu-icon">☰</button>
+            <ul id="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section class="search-section">
+            <h2>Search for Resources</h2>
+            <input type="text" id="search-bar" placeholder="Search resources...">
+        </section>
+
+        <section class="resources">
+            <h2>Educational Resources</h2>
+
+            <div class="resource-category" data-category="math">
+                <h3>Math</h3>
+                <ul>
+                    <li><a href="assets/resources/Calculus.pdf" download>📘 Calculus Basics</a></li>
+                    <li><a href="assets/resources/Statistics.pdf" download>📘 Statistics for Beginners</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-category" data-category="science">
+                <h3>Science</h3>
+                <ul>
+                    <li><a href="assets/resources/Physics Fundamentals.pdf" download>📗 Physics Fundamentals</a></li>
+                    <li><a href="assets/resources/Introduction to Biology.pdf" download>📗 Introduction to Biology</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-category" data-category="coding">
+                <h3>Coding</h3>
+                <ul>
+                    <li><a href="assets/resources/HTML & CSS Guide.pdf" download>💻 HTML & CSS Guide</a></li>
+                    <li><a href="assets/resources/Python Programming.pdf" download>💻 Python Programming</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div id="quiz">
+        <h1><u>Test Your Knoledge</u></h1>
+        <section class="quiz-selection">
+            <h2>Choose a Quiz</h2>
+            <button onclick="location.href='quiz1.html'">Quiz 1: HTML</button>
+            <button onclick="location.href='quiz2.html'">Quiz 2: CSS</button>
+            <button onclick="location.href='quiz3.html'">Quiz 3: JavaScript</button>
+        </section>
+    </div>
+
+    <footer>Copyright &copy; 2025. All rights reserved by Pranav Rajesh Gujar</footer>
+
+    <script src="assets/js/resources.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>

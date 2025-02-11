@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - MindForge</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="icon" href="assets/img/icon.png">
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+
+    <header>
+        <nav>
+          <div class="logo"><a href="index.html"><span>MindForge</span></a></div>
+          <button id="menu-btn" class="menu-icon">☰</button>
+            <ul id="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section class="course-filter">
+            <h1>Browse Our Courses</h1>
+            <label for="filter" style="color: white;">Filter by Difficulty:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </section>
+
+        <section class="course-list">
+            <div class="course-card" data-level="beginner">
+                <img src="assets/img/web-basics.jpg" alt="Web Development">
+                <h3>Web Development Basics</h3>
+                <p>Learn HTML, CSS, and JavaScript from scratch.</p>
+                <span class="difficulty">Beginner</span>
+                <a href="web-development.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="course-card" data-level="beginner">
+                <img src="assets/img/python-for-begginers.png" alt="Python">
+                <h3>Python for Beginners</h3>
+                <p>Start coding in Python with easy-to-follow tutorials.</p>
+                <span class="difficulty">Intermediate</span>
+                <a href="python-beginners.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="course-card" data-level="intermediate">
+                <img src="assets/img/ml.jpg" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <p>Understand AI concepts and build machine learning models.</p>
+                <span class="difficulty">Advanced</span>
+                <a href="machine-learning.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="course-card" data-level="advanced">
+                <img src="assets/img/da.webp" alt="Data Analytics">
+                <h3>Data Analytics</h3>
+                <p>Learn how to analyze and visualize data effectively.</p>
+                <span class="difficulty">Beginner</span>
+                <a href="data-analytics.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="course-card" data-level="advanced">
+                <img src="assets/img/aj.webp" alt="JavaScript">
+                <h3>Advanced JavaScript</h3>
+                <p>Master JavaScript ES6+, async programming, and frameworks.</p>
+                <span class="difficulty">Intermediate</span>
+                <a href="javascript-advanced.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="course-card" data-level="intermediate">
+                <img src="assets/img/cc.jpg" alt="Cloud Computing">
+                <h3>Cloud Computing</h3>
+                <p>Learn AWS, Azure, and Google Cloud for enterprise solutions.</p>
+                <span class="difficulty">Advanced</span>
+                <a href="cloud-computing.html" class="btn">Learn More</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>Copyright &copy; 2025. All rights reserved by Pranav Rajesh Gujar</footer>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>

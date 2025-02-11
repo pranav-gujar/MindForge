@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2 - CSS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+
+    <header>
+        <nav>
+          <div class="logo"><a href="index.html"><span>MindForge</span></a></div>
+          <button id="menu-btn" class="menu-icon">☰</button>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="quiz-section">
+        <h2>CSS Quiz</h2>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container">
+            <div id="question-container"></div>
+            <ul id="options-container"></ul>
+            <p id="timer">Time Left: <span id="time">30</span> sec</p>
+            <button id="next-btn">Next</button>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result-container" style="display: none;">
+            <h3>Quiz Completed!</h3>
+            <p id="score"></p>
+            <button id="retry-btn">Retry Quiz</button>
+        </div>
+    </section>
+    
+    <footer>Copyright &copy;2025.All rights reserved by Pranav Rajesh Gujar</footer>
+
+    <script src="assets/js/quiz2.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
