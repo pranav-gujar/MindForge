@@ -37,6 +37,9 @@
 
 iframe {
     margin-top: 20px;
+    width: 560;
+    height: 315;
+    border-radius: 10px;
 }
 
 .course-details a {
@@ -51,4 +54,12 @@ iframe {
 
 .course-details a:hover {
     background: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
 }

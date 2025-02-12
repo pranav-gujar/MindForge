@@ -35,17 +35,17 @@ nav {
     font-size: 30px;
     color: white;
     cursor: pointer;
-    display: none; /* Hide by default */
+    display: none;
     position: absolute;
     right: 20px;
     top: 15px;
-    z-index: 2000; /* Ensures it is above the menu */
+    z-index: 2000;
 }
 
 /* Responsive Navbar */
 @media (max-width: 768px) {
     .menu-icon {
-        display: block; /* Show ☰ on small screens */
+        display: block;
     }
 
     #nav-links {
@@ -74,6 +74,10 @@ nav {
         text-decoration: none;
         display: block;
         padding: 10px;
+    }
+
+    #nav-links:active {
+        border-bottom: #fff200;
     }
 
     /* Show Navbar when Active */
