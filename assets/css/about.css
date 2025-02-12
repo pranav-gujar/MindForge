@@ -11,13 +11,13 @@
 
 .about-purpose p {
     font-size: 18px;
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
     line-height: 1.6;
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 15px auto;
-    width: 50%;
+    width: 90%;
     border-radius: 10px;
 }
 
@@ -70,7 +70,7 @@
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 15px auto;
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -85,4 +85,20 @@
     color: white;
     color: rgb(234, 255, 0);
     text-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 500px) {
+    .founder-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder-card img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .about-purpose p{
+        width: 100%;
+    }
 }

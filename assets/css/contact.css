@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(68, 172, 175, 0.2);
+    border-radius: 10px;
 }
 
 .contact-form input, 
@@ -32,6 +34,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .contact-form button:hover {
@@ -41,6 +44,12 @@
 .social-media {
     text-align: center;
     padding: 20px;
+}
+
+.social-icons{
+    background: rgba(68, 172, 175, 0.2);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .social-icons a {
@@ -64,4 +73,16 @@
     padding: 20px;
     margin-bottom: 80px;
     background: transparent;
+}
+
+
+@media (min-width: 500px) {
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 100%;
+    }
+
 }
