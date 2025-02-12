@@ -76,13 +76,15 @@ nav {
         padding: 10px;
     }
 
-    #nav-links:active {
-        border-bottom: #fff200;
+    #nav-links.active {
+        right: 0;
+        border-bottom: 3px solid yellow;
+        font-weight: bold;
     }
 
-    /* Show Navbar when Active */
-    #nav-links.active {
-        right: 0; /* Slide in from the right */
+    nav ul li a.active {
+        font-weight: bold;
+        border-bottom: 3px solid yellow;
     }
 
     /* Change ☰ to ✖ when Menu is Open */
