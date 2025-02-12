@@ -2,6 +2,7 @@
     text-align: center;
     padding: 30px;
     color: white;
+    width: 100%;
 }
 
 #quiz-container, #result-container {
@@ -48,4 +49,10 @@
 
 #next-btn:hover, #retry-btn:hover {
     background: darkgreen;
+}
+
+@media (max-width: 768px) {
+    #quiz-container, #result-container {
+        width: 100%;
+    }
 }
